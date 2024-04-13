@@ -1,13 +1,13 @@
 <template>
 <div class="container">
-    <div class="row">
-        <div :class="col_name(columns_content)">nav column</div>
-        <div :class="col_name(nav_content)"><NavBar/></div>
+    <div class="row border">
+        <div  class="border" :class="col_name(columns_content)"><h1>Foo</h1></div>
+        <div  class="border" :class="col_name(nav_content)"><NavBar/></div>
     </div>
-    <div class="row">
-        <div :class="col_name(columns_content)">1</div>
-        <div :class="col_name(middle_content)">2</div>
-        <div :class="col_name(columns_content)">3</div>
+    <div class="row mt-5">
+        <div class="border" :class="col_name(columns_content)"></div>
+        <div class="border" :class="col_name(middle_content)"><MainContent/></div>
+        <div class="border" :class="col_name(columns_content)"></div>
     </div>
 </div>
 </template>

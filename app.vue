@@ -10,7 +10,7 @@
 import '~/assets/main.css'
 useHead({
   bodyAttrs: {
-    "data-bs-theme": 'dark'
+    // "data-bs-theme": 'dark'
   }
 })
 </script>

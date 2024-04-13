@@ -6,15 +6,16 @@
     height: 250px
 }
 
-#posts h2{
+.posts h2{
     font-size: 100%;;
 }
 
-#posts p{
+.posts p{
     font-size: 80%
 }
 
-#posts{
+.posts{
+    margin-bottom: 30px;
     background-color: var(--bs-light-bg-subtle);
-    border: 1px dashed var(--bs-light-text-emphasis)
+    /* border: 1px dashed var(--bs-light-text-emphasis) */
 }
